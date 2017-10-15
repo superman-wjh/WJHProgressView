@@ -23,6 +23,7 @@
     [self.view addSubview:button];
     button.backgroundColor = [UIColor redColor];
     button.center = self.view.center;
+    NSLog(@"this is test error.by SuperMan.");
     
 }
 
