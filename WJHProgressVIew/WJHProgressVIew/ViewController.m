@@ -19,6 +19,10 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.view.backgroundColor = [UIColor orangeColor];
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
+    [self.view addSubview:button];
+    button.backgroundColor = [UIColor redColor];
+    button.center = self.view.center;
     
 }
 
